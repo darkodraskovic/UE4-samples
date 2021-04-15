@@ -304,7 +304,7 @@
                 "CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
                 "AUDIOMIXERCORE_VTABLE=DLLIMPORT_VTABLE",
                 "AUDIOMIXERCORE_API=",
-                "UE_PROJECT_NAME=Samples",
+                "UE_PROJECT_NAME=MyProject",
                 "MYPROJECT_VTABLE=DLLEXPORT_VTABLE",
                 "MYPROJECT_API="
             ],			
