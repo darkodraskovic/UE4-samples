@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!Source/**
+!.vscode/c_cpp_properties.json
+!Config/**
+!Content/**
+
+# ...even if they are in subdirectories
+!*/
