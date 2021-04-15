@@ -28,7 +28,27 @@
 		"file": "/home/darko/Documents/Unreal Projects/Samples/Source/Samples/InputMover.h",
 		"command": "cl.exe @\"/home/darko/Documents/Unreal Projects/Samples/.vscode/compileCommands_Samples/Samples.149.rsp\"",
 		"directory": "/home/darko/Programs/UnrealEngine/Engine/Source"
-	},	
+	},
+	{
+		"file": "/home/darko/Documents/Unreal Projects/Samples/Source/Samples/Marble.cpp",
+		"command": "cl.exe @\"/home/darko/Documents/Unreal Projects/Samples/.vscode/compileCommands_Samples/Samples.149.rsp\"",
+		"directory": "/home/darko/Programs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/darko/Documents/Unreal Projects/Samples/Source/Samples/Marble.h",
+		"command": "cl.exe @\"/home/darko/Documents/Unreal Projects/Samples/.vscode/compileCommands_Samples/Samples.149.rsp\"",
+		"directory": "/home/darko/Programs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/darko/Documents/Unreal Projects/Samples/Source/Samples/PlayerMarble.cpp",
+		"command": "cl.exe @\"/home/darko/Documents/Unreal Projects/Samples/.vscode/compileCommands_Samples/Samples.149.rsp\"",
+		"directory": "/home/darko/Programs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/darko/Documents/Unreal Projects/Samples/Source/Samples/PlayerMarble.h",
+		"command": "cl.exe @\"/home/darko/Documents/Unreal Projects/Samples/.vscode/compileCommands_Samples/Samples.149.rsp\"",
+		"directory": "/home/darko/Programs/UnrealEngine/Engine/Source"
+	},			
 	{
 		"file": "/home/darko/Documents/Unreal Projects/Samples/Source/Samples/Samples.Build.cs",
 		"command": "cl.exe @\"/home/darko/Documents/Unreal Projects/Samples/.vscode/compileCommands_Samples/Samples.149.rsp\"",
