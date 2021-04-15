@@ -5,8 +5,9 @@
 !.gitignore
 !Source/**
 !.vscode/c_cpp_properties.json
+!.vscode/compileCommands_Samples.json
 !Config/**
-!Content/**
+Content/**
 
 # ...even if they are in subdirectories
 !*/

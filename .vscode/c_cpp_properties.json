@@ -304,13 +304,19 @@
                 "CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
                 "AUDIOMIXERCORE_VTABLE=DLLIMPORT_VTABLE",
                 "AUDIOMIXERCORE_API=",
-                "UE_PROJECT_NAME=MyProject",
-                "MYPROJECT_VTABLE=DLLEXPORT_VTABLE",
-                "MYPROJECT_API="
-            ],			
+                "UE_PROJECT_NAME=Samples",
+                "SAMPLES_VTABLE=DLLEXPORT_VTABLE",
+                "SAMPLES_API="
+            ],
             "compileCommands": "/home/darko/Documents/Unreal Projects/Samples/.vscode/compileCommands_Samples.json",
             "cStandard": "c17",
-            "cppStandard": "c++14"
+            "cppStandard": "c++14",
+            "includePath": [
+                "${default}",
+                "/home/darko/Programs/UnrealEngine/Engine/Source/Runtime/Core/Public",
+                "${workspaceFolder}/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Samples",
+                "/home/darko/Programs/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public"
+            ]
         }
     ],
     "version": 4
