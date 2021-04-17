@@ -14,4 +14,6 @@ class SAMPLES_API ASamplesGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:	
+	ASamplesGameModeBase();
 };

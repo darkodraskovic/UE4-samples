@@ -4,10 +4,11 @@
 # But not these files...
 !.gitignore
 !Source/**
-!.vscode/c_cpp_properties.json
-!.vscode/compileCommands_Samples.json
 !Config/**
-Content/**
+!Content/Blueprints/**
+!Content/GameModes/**
+!Content/Materials/**
+!Content/Fonts/**
 
 # ...even if they are in subdirectories
 !*/

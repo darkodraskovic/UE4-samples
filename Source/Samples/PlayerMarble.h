@@ -40,8 +40,7 @@ protected:
 
 	virtual void Tick(float deltaSeconds) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* playerInputComponent) override;
-
-
+	
 private:
 	void MoveX(float value);
 	void MoveY(float value);
@@ -51,4 +50,6 @@ private:
 	float InputX = 0.0f;
 	float InputY = 0.0f;
 	float DashTimer = 0.0f;
+
+	friend class AMarbleDebugHUD;
 };
