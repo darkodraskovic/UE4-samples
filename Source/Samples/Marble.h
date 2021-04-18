@@ -16,19 +16,32 @@ public:
 	AMarble();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Marble);
-	class UStaticMeshComponent* MarbleMesh;
+		class UStaticMeshComponent* MarbleMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Marble);
-	float Magnetized = 1.0f;
+		float Magnetized = 1.0f;
+
+	UFUNCTION(BlueprintCallable, Category = "Marble")
+		void ResetLocation() const;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	virtual void NotifyHit(
+		UPrimitiveComponent* myComp, AActor* otherActor, UPrimitiveComponent* otherComp, bool selfMoved, FVector hitLocation, FVector hitNormal, FVector normalImpulse, const FHitResult& hitResult);
+
+	// Set to false in Tick(), set to true in NotifyHit() to see if ball is in air; do not query between calls to Tick() and NotifyHit()!
+	bool InContact = false;
+
+private:
+	FVector InitalLocation = FVector::ZeroVector;
+
+	friend class ADebugHUD;
 };

@@ -11,6 +11,7 @@ void AMarbleDebugHUD::DrawHUD()
     APlayerMarble* playerMarble = Cast<APlayerMarble>(GetOwningPawn());
 
     if (playerMarble != nullptr) {
+        AddStatistic(TEXT("In contact"), playerMarble->InContact);
         AddStatistic(TEXT("Speed"), playerMarble->GetVelocity().Size() / 100.f);
         AddStatistic(TEXT("Dash timer"), playerMarble->DashTimer);
         AddStatistic(TEXT("Input X"), playerMarble->InputX);
