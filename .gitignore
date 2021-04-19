@@ -7,7 +7,6 @@
 !Config/**
 !Content/Blueprints/**
 !Content/GameModes/**
-!Content/Materials/**
 !Content/Fonts/**
 
 # ...even if they are in subdirectories

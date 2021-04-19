@@ -36,7 +36,7 @@ void ADebugHUD::AddStatistic(const TCHAR* title, int value)
 
 void ADebugHUD::AddStatistic(const TCHAR* title, bool value) 
 {
-    RenderStatistic(title, ToText(value), (value == true) ? FLinearColor::Red : FLinearColor::Green);
+    RenderStatistic(title, ToText(value), (value == true) ? FLinearColor::Green : FLinearColor::Red);
 }
 
 FText ADebugHUD::ToText(const TCHAR* text) 
